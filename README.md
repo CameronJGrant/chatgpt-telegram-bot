@@ -187,12 +187,17 @@ source venv/bin/activate
 venv\Scripts\activate
 ```
 
-3. Install the dependencies using `requirements.txt` file:
+3. Install Poetry to manage the dependencies:
 ```shell
-pip install -r requirements.txt
+pip install poetry
 ```
 
-4. Use the following command to start the bot:
+4. Install the dependencies using poetry:
+```shell
+poetry install
+```
+
+5. Use the following command to start the bot:
 ```
 python bot/main.py
 ```
